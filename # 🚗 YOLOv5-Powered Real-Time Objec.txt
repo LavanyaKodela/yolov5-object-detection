@@ -1,0 +1,29 @@
+# 🚗 YOLOv5-Powered Real-Time Object Detection Platform
+
+A real-time object detection system using **YOLOv5**, deployed on **AWS EC2**, built to detect vehicles with high accuracy across different conditions.
+
+## 📌 Project Overview
+This project implements a computer vision pipeline using YOLOv5 to detect objects (e.g., vehicles, pedestrians) in real-time video feeds. It was deployed on a cloud-based EC2 instance for scalability and accessibility.
+
+## 🎯 Key Features
+- 🔍 High-accuracy object detection (90%+ precision)
+- ⚡ Real-time inference on video streams
+- ☁️ Deployed on AWS EC2 with OpenCV-based streaming
+- 🛠️ Easy model retraining for custom object classes
+
+## 🧰 Tech Stack
+- Python
+- YOLOv5 (PyTorch)
+- OpenCV
+- AWS EC2 (Ubuntu)
+- Flask (optional for API serving)
+
+## 📊 Results
+- Achieved **90%+ detection accuracy** on test videos
+- Real-time processing speed ~20 FPS on GPU-backed EC2 instance
+
+## 🧪 How to Run Locally
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/yourusername/yolov5-object-detection.git
+   cd yolov5-object-detection
